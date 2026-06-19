@@ -25,12 +25,14 @@ export default function ContactPage() {
       <GoogleAnalytics />
       {/* Header */}
       <PageHero>
-        <Breadcrumbs
-          items={[
-            { label: "Home", href: "/" },
-            { label: "Contact" },
-          ]}
-        />
+        <div className="flex w-full justify-center">
+          <Breadcrumbs
+            items={[
+              { label: "Home", href: "/" },
+              { label: "Contact" },
+            ]}
+          />
+        </div>
         <span className="mt-8 block font-eyebrow text-base italic tracking-wide text-action-blue">
           Get in touch
         </span>
